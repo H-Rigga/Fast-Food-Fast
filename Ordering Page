@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Make Your Order</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<h1 class="Menu">Our Menu</h1>
+	<table>
+		<tr>
+			<th>Food</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td>Beef Burger</td>
+			<td>150/=</td>
+		</tr>
+		<tr>
+			<td>French Fries</td>
+			<td>100/=</td>
+		</tr>
+		<tr>
+			<td>French Fries Masala</td>
+			<td>120/=</td>
+		</tr>
+		<tr>	
+			<td>Samosa</td>
+			<td>50/=</td>
+		</tr>
+		<tr>
+			<td>Smokie Pasua</td>
+			<td>30/=</td>
+		</tr>
+		<tr>
+			<td>Smokie</td>
+			<td>25/=</td>
+		</tr>
+		<tr>
+			<td>Kebab</td>
+			<td>50/=</td>
+		</tr>
+		<tr>
+			<td>Mandazi(KDF)</td>
+			<td>10/=</td>
+		</tr>
+		<tr>
+			<td>Chapati(MRC)</td>
+			<td>10/=</td>
+		</tr>
+		<tr>
+			<td>1/4 Chicken</td>
+			<td>150/=</td>
+		</tr>
+		<tr>
+			<td>1/2 Chicken</td>
+			<td>300/=</td>
+		</tr>
+		<tr>
+			<td>3/4 Chicken</td>
+			<td>450/=</td>
+		</tr>
+		<tr>
+			<td>Full Chicken</td>
+			<td>600/=</td>
+		</tr>
+		<tr>
+			<th>Beverage</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td>500ml Soda</td>
+			<td>100/=</td>
+		</tr>
+		<tr>
+			<td>1l Soda</td>
+			<td>150/=</td>
+		</tr>
+		<tr>
+			<td>2l Soda</td>
+			<td>250/=</td>
+		</tr>
+		<tr>
+			<td>Juice</td>
+			<td>100/=</td>
+		</tr>
+	</table>
+
+	<div class= "orderingbox">
+		<h1>Your Order</h1>
+		<p>What would you like to order?(Check your Preferences)</p>
+		<input type="checkbox" name="Beef Burger"> Beef Burger 
+		<br>
+		<input type="checkbox" name="French Fries"> French Fries
+		<br>
+		<input type="checkbox" name="French Fries Masala"> French Fries Masala
+		<br>
+		<input type="checkbox" name="Samosa"> Samosa
+		<br>
+		<input type="checkbox" name="Smokie Pasua"> Smokie Pasua
+		<br>
+		<input type="checkbox" name="Smokie"> Smokie
+		<br>
+		<input type="checkbox" name="Kebab"> Kebab
+		<br>
+		<input type="checkbox" name="Mandazi(KDF)"> Mandazi(KDF)
+		<br>
+		<input type="checkbox" name="Chapati(MRC)"> Chapati(MRC)
+		<br>
+		<input type="checkbox" name="1/4 Chicken"> 1/4 Chicken
+		<br>
+		<input type="checkbox" name="1/2 Chicken"> 1/2 Chicken
+		<br>
+		<input type="checkbox" name="3/4 Chicken"> 3/4 Chicken
+		<br>
+		<input type="checkbox" name="Full Chicken"> Full Chicken
+		<br>
+		<p>What would you like to drink?</p>
+		<input type="checkbox" name="500ml Soda"> 500ml Soda
+		<br>
+		<input type="checkbox" name="1l Soda"> 1l Soda
+		<br>
+		<input type="checkbox" name="2l Soda"> 2l Soda
+		<br>
+		<input type="checkbox" name="Juice"> Juice
+		<br>
+		<input type="submit" name="" value="Order!">
+	</div>
+</body>
+</html>
