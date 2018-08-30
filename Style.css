@@ -1,0 +1,175 @@
+Stylesheet
+
+body{
+	margin: 0
+	padding: 0;
+	background-image: url(/pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	display: block;
+	font-family: serif;
+}
+
+.loginbox{
+	width: 300px
+	height: 400px;
+	background: #000
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+
+.loginbox p{
+	margin: 0;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.loginbox input[type="Email"], input[type="password"]{
+	border: none;
+	padding-bottom: 0;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 30px;
+	background: #241BA4;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #fb2525
+	color: #ffc107;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: blue;
+}
+
+.loginbox a:hover{
+	color: #ffc107;
+}
+
+.loginbox input[type="text"]{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+
+table, th, tr,td{
+	width:40%;
+	border: 1px solid white;
+	text-align: left;
+	font-size: 16px;
+	table-layout: fixed;
+	background: orange;
+	opacity: 1.0;
+	color: #000;
+}
+
+.Ourmenu{
+	top: 80%;
+	float: left;
+}
+
+.orderingbox{
+	background: #000
+	color: #fff;
+	top: 56%;
+	left: 60%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	font-size: 18px;
+	float: right;
+}
+
+.orderingbox h1{
+	text-align: center;
+}
+
+.orderingbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 30px;
+	background: orange;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.orderingbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #fb2525
+	color: #ffc107;
+}
+
+header{
+	background: #241BA4;
+}
+
+.navbar h1{
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+
+	position: relative;
+}
+
+nav a{
+	color: #EF0B1A;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #000;
+}
+
+.homeorder{
+	float: left;
+	margin-top: 60px;
+}
+
+.homehistory{
+	float: right;
+}
+
+.aboutus{
+	top: 80%
+	position:absolute;
+}
